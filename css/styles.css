@@ -1,0 +1,59 @@
+
+
+/* header */
+
+body {
+  max-width: 375px;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f5e9cd;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+}
+
+.logo_info {
+  height: 31px;
+  width: 11px;
+}
+
+.logo_graine {
+  height: 25px;
+  width: 33px;
+}
+
+.logo_carte {
+  height: 30px;
+  width: 18px;
+}
+
+.logo_contact {
+  height: 35px;
+  width: 34px;
+}
+
+.texture {
+  position: absolute;
+  width: 100%;
+  opacity: 40%;
+  left: 0;
+  height: 100px;
+}
