@@ -5,15 +5,13 @@ var transition = new TweenMax.to(".transition_debut", 2, {
 });
 
 var containerScene = new ScrollMagic.Scene({
-  offset: 50,
-  duration: 800,
+  offset: 30,
+  duration: 700,
 })
   .setTween(transition)
   .addIndicators()
   .addTo(controller);
 
-
-  var controller = new ScrollMagic.Controller();
 
 var transition = new TweenMax.to(".transition_fin", 1, {
   y: -150,

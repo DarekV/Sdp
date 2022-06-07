@@ -9,6 +9,7 @@ body {
   margin: auto;
   background-color: #f9efd7;
   position: relative;
+  background-image: url('../img/fond.svg');
 }
 
 header {
@@ -74,13 +75,11 @@ nav {
 
 .img_fond {
   width: 375px;
-  position: absolute;
-  top: -390px;
   z-index: -1;
 }
 
 .info {
-  margin-top: 400px;
+  padding: 80px 0 0;
   height: 300px;
   box-shadow: 0px 15px 15px -7px rgba(0,0,0,0.2);
 }
@@ -121,7 +120,7 @@ main div {
 
 .produit {
   margin: 60px 20px 0;
-  padding: 50px 20px 0;
+  padding: 0 20px 0;
   position: relative;
   height: 770px;
   border: 1px solid black;
@@ -159,7 +158,7 @@ h3 {
 .img_haricot {
   position: absolute;
   width: 250px;
-  top: 180px;
+  top: 125px;
   right: 20px;
 }
 
@@ -183,7 +182,7 @@ h3 {
 .img_potimaron {
   position: absolute;
   width: 255px;
-  top: 160px;
+  top: 105px;
   right: 10px;
 }
 
@@ -202,7 +201,7 @@ h3 {
 .img_bleuet {
   position: absolute;
   width: 255px;
-  top: 170px;
+  top: 125px;
   right: 10px;
 }
 
@@ -210,6 +209,7 @@ h3 {
   margin: 100px 0 0;
   padding: 80px 20px 0;
   box-shadow: 2px -14px 16px -3px rgba(0,0,0,0.12);
+  padding: 60px 0 100px;
 }
 
 .carte img {
@@ -232,7 +232,7 @@ h4 {
 }
 
 .container {
-  margin: 30px 0 100px;
+  margin: 30px 20px 0;
   height: 335px;
   display: flex;
   flex-direction: row;
