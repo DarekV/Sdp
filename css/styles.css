@@ -1,24 +1,35 @@
 /* header */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 375px;
   margin: auto;
   background-color: #f9efd7;
+  position: relative;
 }
 
 header {
+  position: fixed;
+  top: 0;
+  right: 50%;
+  transform: translateX(50%);
+  width: 375px;
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
   background-color: #f5e9cd;
+  box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.42);
+  z-index: 10;
 }
 
 .logo {
   width: 120px;
-  margin-top: 15px;
+  margin: 15px 0 0 20px;
 }
 
 nav {
@@ -27,6 +38,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 160px;
+  margin-right: 20px;
+  z-index: 20;
 }
 
 .logo_info {
@@ -62,12 +75,12 @@ nav {
 .img_fond {
   width: 375px;
   position: absolute;
-  top: 0;
+  top: -390px;
   z-index: -1;
 }
 
 .info {
-  margin-top: 235px;
+  margin-top: 400px;
   height: 150px;
 }
 
@@ -100,7 +113,7 @@ main div {
 }
 
 .semence {
-  margin: 250px 0 0;
+  margin: 220px 0 0;
   padding-top: 80px;
 }
 
@@ -191,7 +204,7 @@ h3 {
 }
 
 .carte {
-  margin: 250px 0 0;
+  margin: 220px 0 0;
   padding: 80px 20px 0;
 }
 
@@ -225,4 +238,25 @@ h4 {
 
 .container div {
   width: 50%;
+}
+
+footer {
+  padding: 20px;
+  background-color: #ddc297;
+}
+
+footer h2 {
+  text-align: left;
+}
+
+footer p {
+  margin: 20px 0 0;
+}
+
+footer a {
+  color: black;
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
 }

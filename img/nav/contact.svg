@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 39.63"><defs><style>.d{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px;}</style></defs><g id="a"/><g id="b"><g id="c"><g><rect class="d" x="3.17" y="1" width="30.83" height="37.63" rx="12.03" ry="12.03"/><line class="d" y1="8.25" x2="6.35" y2="8.25"/><line class="d" y1="14.15" x2="6.35" y2="14.15"/><line class="d" y1="25.93" x2="6.35" y2="25.93"/><line class="d" y1="31.83" x2="6.35" y2="31.83"/><line class="d" y1="20.04" x2="6.35" y2="20.04"/><path class="d" d="M13.15,25.93c3.72-7.86,7.44-7.86,11.16,0"/><circle class="d" cx="18.81" cy="13.47" r="3.4"/></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 35 39.6" style="enable-background:new 0 0 35 39.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#4D3F2D;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g id="a">
+</g>
+<g id="b">
+	<g id="c">
+		<g>
+			<path class="st0" d="M15.2,1H22c6.6,0,12,5.4,12,12v13.6c0,6.6-5.4,12-12,12h-6.8c-6.6,0-12-5.4-12-12V13C3.2,6.4,8.6,1,15.2,1z"
+				/>
+			<line class="st0" x1="0" y1="8.2" x2="6.3" y2="8.2"/>
+			<line class="st0" x1="0" y1="14.1" x2="6.3" y2="14.1"/>
+			<line class="st0" x1="0" y1="25.9" x2="6.3" y2="25.9"/>
+			<line class="st0" x1="0" y1="31.8" x2="6.3" y2="31.8"/>
+			<line class="st0" x1="0" y1="20" x2="6.3" y2="20"/>
+			<path class="st0" d="M13.1,25.9c3.7-7.9,7.4-7.9,11.2,0"/>
+			<circle class="st0" cx="18.8" cy="13.5" r="3.4"/>
+		</g>
+	</g>
+</g>
+</svg>
