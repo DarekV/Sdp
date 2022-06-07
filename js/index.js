@@ -9,7 +9,6 @@ var containerScene = new ScrollMagic.Scene({
   duration: 700,
 })
   .setTween(transition)
-  .addIndicators()
   .addTo(controller);
 
 
@@ -22,7 +21,6 @@ var containerScene = new ScrollMagic.Scene({
   duration: 1500,
 })
   .setTween(transition)
-  .addIndicators()
   .addTo(controller);
 
 
