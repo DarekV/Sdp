@@ -76,6 +76,7 @@ nav {
 .img_fond {
   width: 375px;
   z-index: -1;
+  transform: translateY(10px);
 }
 
 .info {
@@ -124,7 +125,6 @@ main div {
   position: relative;
   height: 723px;
   border: 1px solid black;
-  border-bottom: none;
 }
 
 h3 {
@@ -193,7 +193,7 @@ h3 {
 
 .potimaron {
   background-color: #ffe3bb;
-  height: 708px;
+  height: 710px;
 }
 
 .potimaron h3 {
@@ -301,7 +301,7 @@ footer a {
   height: 250px;
   width: 333px;
   position: relative;
-  transform: translate(-20px, 231px);
+  transform: translate(-20px, 232px);
   overflow: hidden;
 }
 
@@ -315,7 +315,7 @@ footer a {
 }
 
 .carousel img {
-  width: 333px;
+  width: 335px;
 }
 
 .slide,
@@ -354,6 +354,10 @@ footer a {
 }
 
 .carousel-left img,
-.carousel-right img {
+.carousel-right img,
+.carousel-left2 img,
+.carousel-right2 img,
+.carousel-left3 img,
+.carousel-right3 img {
   width: 25px;
 }
