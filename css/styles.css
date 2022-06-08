@@ -344,13 +344,15 @@ footer a {
 .carousel-left,
 .carousel-left2,
 .carousel-left3 {
-  left: 20px;
+  left: 5%;
+  padding: 0;
 }
 
 .carousel-right,
 .carousel-right2,
 .carousel-right3 {
-  right: 20px;
+  right: 5%;
+  padding: 0;
 }
 
 .carousel-left img,
