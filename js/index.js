@@ -11,7 +11,6 @@ var containerScene = new ScrollMagic.Scene({
   .setTween(transition)
   .addTo(controller);
 
-
 var transition = new TweenMax.to(".transition_fin", 1, {
   y: -150,
 });
@@ -23,41 +22,39 @@ var containerScene = new ScrollMagic.Scene({
   .setTween(transition)
   .addTo(controller);
 
+const track = document.querySelector(".carousel-slide");
+const slides = Array.from(track.children);
+const nextbutton = document.querySelector(".carousel-right");
+const prevbutton = document.querySelector(".carousel-left");
 
+const slideswidth = slides[0].getBoundingClientRect().width;
 
-  const track = document.querySelector(".carousel-slide");
-  const slides = Array.from(track.children);
-  const nextbutton = document.querySelector(".carousel-right");
-  const prevbutton = document.querySelector(".carousel-left");
-  
-  const slideswidth = slides[0].getBoundingClientRect().width;
-  
-  const setslideposition = (slide, index) => {
-    slide.style.left = slideswidth * index + "px";
-  };
-  slides.forEach(setslideposition);
-  
-  nextbutton.addEventListener("click", (e) => {
-    const currentslide = track.querySelector(".current-slide");
-    const nextslide = currentslide.nextElementSibling;
-    const amountomove = nextslide.style.left;
-  
-    track.style.transform = "translateX(-" + amountomove + ")";
-    currentslide.classList.remove("current-slide");
-    nextslide.classList.add("current-slide");
-  });
-  
-  prevbutton.addEventListener("click", (e) => {
-    const currentslide = track.querySelector(".current-slide");
-    const prevslide = currentslide.previousElementSibling;
-    const amountomove = prevslide.style.left;
-  
-    track.style.transform = "translateX(-" + amountomove + ")";
-    currentslide.classList.remove("current-slide");
-    prevslide.classList.add("current-slide");
-  });
+const setslideposition = (slide, index) => {
+  slide.style.left = slideswidth * index + "px";
+};
+slides.forEach(setslideposition);
 
-  const track2 = document.querySelector(".carousel-slide2");
+nextbutton.addEventListener("click", (e) => {
+  const currentslide = track.querySelector(".current-slide");
+  const nextslide = currentslide.nextElementSibling;
+  const amountomove = nextslide.style.left;
+
+  track.style.transform = "translateX(-" + amountomove + ")";
+  currentslide.classList.remove("current-slide");
+  nextslide.classList.add("current-slide");
+});
+
+prevbutton.addEventListener("click", (e) => {
+  const currentslide = track.querySelector(".current-slide");
+  const prevslide = currentslide.previousElementSibling;
+  const amountomove = prevslide.style.left;
+
+  track.style.transform = "translateX(-" + amountomove + ")";
+  currentslide.classList.remove("current-slide");
+  prevslide.classList.add("current-slide");
+});
+
+const track2 = document.querySelector(".carousel-slide2");
 const slides2 = Array.from(track2.children);
 const nextbutton2 = document.querySelector(".carousel-right2");
 const prevbutton2 = document.querySelector(".carousel-left2");
