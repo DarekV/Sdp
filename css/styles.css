@@ -123,7 +123,7 @@ main div {
   margin: 60px 20px 0;
   padding: 0 20px 0;
   position: relative;
-  height: 723px;
+  height: 806px;
   border: 1px solid black;
 }
 
@@ -154,7 +154,7 @@ h3 {
   font-weight: 600;
   font-style: normal;
   font-size: 60px;
-  transform: translate(0px, -228px);
+  transform: translate(0px, -295px);
   text-decoration: none;
   padding: 0 10px;
   border: 1px solid;
@@ -193,7 +193,7 @@ h3 {
 
 .potimaron {
   background-color: #ffe3bb;
-  height: 710px;
+  height: 793px;
 }
 
 .potimaron h3 {
@@ -298,7 +298,7 @@ footer a {
 /* carousel */
 
 .carousel {
-  height: 250px;
+  height: 333px;
   width: 333px;
   position: relative;
   transform: translate(-20px, 232px);
